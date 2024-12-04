@@ -1,0 +1,62 @@
+.formContainer {
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 50px auto; /* Centra el formulario horizontalmente */
+  padding: 20px;
+  background-color: #f4f4f4; /* Color de fondo claro */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* Estilo de los títulos dentro del formulario */
+.formContainer h2 {
+  text-align: center; /* Centra el título */
+  font-size: 24px; /* Tamaño de letra */
+  margin-bottom: 20px; /* Separación debajo del título */
+  color: #333;
+}
+
+.inputLabelContainer {
+  margin-bottom: 15px; /* Espacio entre cada campo */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo para las etiquetas (label) */
+.inputLabelContainer label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px; /* Espacio entre el label y el input */
+}
+
+/* Estilo para los inputs */
+.input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 14px;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no expanda el input más allá de su contenedor */
+}
+
+/* Estilo para el botón de registro */
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--secondaryColor); /* Azul para el botón */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el cursor */
+}
+
+.button:active {
+  background-color: #003f7f; /* Color aún más oscuro al hacer clic */
+}

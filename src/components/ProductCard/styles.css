@@ -1,0 +1,43 @@
+.cardContainer{
+  display: flex;  
+  flex-direction: column;
+  border-radius: 4px;
+  background-color:var(--background) ;
+  color: #4A2C2A;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardContainer img{
+    width: 10rem;
+    max-width: 10rem;
+    border-radius: 4px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.cardDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+.cardInfo h3{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.cardInfo p{
+    align-self: start;
+}
+.AddToCartButton{
+    width: 80px;
+    height: 30px;
+    background-color:#8E44AD;
+    color: #ffffff;
+    border-radius: 4px;
+
+}

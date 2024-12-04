@@ -1,0 +1,28 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #D35400;
+    color: #4A2C2A;
+    font-size: 18px;
+}
+
+.navBarbuttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: #4A2C2A solid 2px;
+}
+
+.searchContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+.searchBar{
+    width: 500px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
