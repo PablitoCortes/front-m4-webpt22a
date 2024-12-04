@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Product } from "@/interfaces/Product";
 import "./styles.css";
 import { userContext } from "@/context/userContext";
