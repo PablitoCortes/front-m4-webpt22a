@@ -23,7 +23,7 @@ export interface UserData {
   phone: number;
   role: string;
   credential: Credential;
-  orders: any[];
+  orders: number[];
 }
 
 export interface Credential {

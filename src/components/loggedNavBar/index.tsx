@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { FormEvent } from "react";
-import { useUser } from "@/context/userContext";
+import { FormEvent, useContext } from "react";
+import { userContext } from "@/context/userContext";
 
 const loggedNavBar = () => {
-  const { user, setUser } = useUser();
+  const { setUser } = useContext(userContext);
 
   const handleLogout = (event: FormEvent<HTMLButtonElement>) => {
     event.preventDefault();

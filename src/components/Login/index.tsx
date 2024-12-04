@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { userLogin } from "@/services/userService";
 
 const Login = () => {
-  const { user, setUser } = useContext(userContext);
+  const { setUser } = useContext(userContext);
   const router = useRouter();
   const [loginData, setLoginData] = useState({
     username: "",

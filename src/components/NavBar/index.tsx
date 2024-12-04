@@ -8,7 +8,7 @@ import { CartContext } from "@/context/cartContext";
 
 const NavBar = () => {
   const { user, setUser } = useContext(userContext);
-  const { cart, setCart, clearCart } = useContext(CartContext);
+  const { clearCart } = useContext(CartContext);
 
   const router = useRouter();
 

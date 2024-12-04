@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import "./styles.css";
 import { CartContext } from "@/context/cartContext";
 import Link from "next/link";
