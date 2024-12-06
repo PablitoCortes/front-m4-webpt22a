@@ -47,16 +47,6 @@ const ProductDetail = ({ product }: ProductDetailProps) => {
           <span>Shipping: $0.00</span>
           <span>Free</span>
         </div>
-        {/* <div className="quantity">
-          <span>Quantity:</span>
-          <input
-            type="number"
-            value={quantity}
-            min={quantity}
-            max={product.stock}
-            onChange={handleQuantityChange}
-          />
-        </div> */}
         <div className="stock">Stock: {product.stock}</div>
         {!isInCart ? (
           <button onClick={handleBuy}>Add to Cart</button>
