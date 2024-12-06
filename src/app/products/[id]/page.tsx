@@ -9,7 +9,7 @@ interface pageProps {
 }
 
 const page = async ({ params }: pageProps) => {
-  const { id } = await params;
+  const { id } = params;
   const product = await getProduct(id);
   if (!product) return notFound();
   return (
