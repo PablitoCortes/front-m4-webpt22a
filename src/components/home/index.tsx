@@ -1,6 +1,5 @@
 import { Product } from "@/interfaces/Product";
 import ProductCard from "@/components/ProductCard";
-import { getProducts } from "@/services/productService";
 
 const Home: React.FC<{ products: Product[] }> = async ({ products }) => {
   return (
